@@ -44,11 +44,9 @@ app.post('/article_detail',async function(req,res){
     })
 })
 
-
-
-
-
-
+app.get('*', function (req, res) {
+    res.sendFile(path.join(__dirname, 'build', 'index.html'))
+})
 
 app.listen(3022,function(){
     console.log("3022端口已经启动");

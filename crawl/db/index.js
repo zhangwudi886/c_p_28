@@ -5,7 +5,7 @@ let bluebird = require('bluebird');
 let connection = mysql.createConnection({
     host:'localhost',
     port:'3306',
-    password:'shibowork',
+    password:'xdf_yanfadashi',
     user:'root',
     database:'crawl-create28'
 })
